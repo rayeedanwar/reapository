@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environments>
+    <environment name="local" url="http://localhost:8080/prweb/PRServlet"/>
+    <environment name="google" url="http://www.google.co.uk"/>
+    <environment name="academycloud" url="https://paex36-eu.pegacloud.io/prweb/o-GbxC1xXmIMQP7ZfpXHb9U8MjTDPXbbrIUUBIzORwokUw8xWjU6OjR-bwCaReH9*/!STANDARD?pzPostData=545413260"/>
+</environments>
