@@ -8,9 +8,9 @@ public class Main {
 
         System.out.println("My Long value is = " + myLong);
 
-        double myDouble = 50;
-        double mySecondDouble = 80;
-        double remainder = ((myDouble + mySecondDouble)*25%3);
+        double myDouble = 50d;
+        double mySecondDouble = 80D;
+        double remainder = ((myDouble + mySecondDouble)*25%3 );
         System.out.println("My First Double: " + myDouble + "\nMy Second Double: "
                             + mySecondDouble + "\nMy Remainder: " + remainder);
 
