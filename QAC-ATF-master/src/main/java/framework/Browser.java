@@ -41,7 +41,7 @@ public class Browser {
                     usingDriverExecutable(chromeDriver).build();
             driver = new ChromeDriver(chromeDriverServiceHeaded);
         }
-        driver.manage().window().maximize();
+
     }
 
     public WebDriver getDriver(){

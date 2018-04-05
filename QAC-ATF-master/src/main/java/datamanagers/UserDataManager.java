@@ -7,22 +7,22 @@ import main.java.data.User;
  */
 public class UserDataManager {
     public static User getAdminUser(){
-        return new User("administrator@pega.com", "install", "Bob");
+        return new User("administrator@pega.com", "install");
     }
 
     public static User getDemoCoUser(){
-        return new User("User@DemoCo.com", "rules", "User");
+        return new User("User@DemoCo.com", "rules");
     }
 
-    public static User getQACUser(){
-        return new User("User@QAC", "rules", "User");
+    public static User caseWorker(){
+        return new User("User.RanwarQA", "rules");
     }
 
     public static User getAcademyDev(){
-        return new User("SA@TGB", "rules", "");
+        return new User("SA@TGB", "rules");
     }
 
     public static User getCaseWorker(){
-        return new User("user.testapp", "rules", "");
+        return new User("User.Testapp", "rules");
     }
 }

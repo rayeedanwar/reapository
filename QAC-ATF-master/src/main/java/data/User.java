@@ -4,13 +4,9 @@ package main.java.data;
  * Created by chris on 03/09/16.
  */
 public class User {
-    private String userPID;
-    private String password;
-    private String userName;
 
-    public String getUserPID() {
-        return userPID;
-    }
+    private String userName;
+    private String password;
 
     public String getPassword() {
         return password;
@@ -20,8 +16,7 @@ public class User {
         return userName;
     }
 
-    public User(String userPID, String password, String userName) {
-        this.userPID = userPID;
+    public User(String userName, String password) {
         this.password = password;
         this.userName = userName;
     }
