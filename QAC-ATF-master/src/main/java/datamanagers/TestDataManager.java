@@ -11,7 +11,7 @@ public class TestDataManager {
         return new Demo("Bill", "Bailey", "bill@blackbooks.co.uk", false);
     }
 
-    public static PersonalInformation getPersonalInformation(){
-        return new PersonalInformation("Chris");
+    public static PersonalInformation getTestCaseOne(){
+        return new PersonalInformation("Chris","Topher","stopherchris@live.com",true,true,"London","Someone","03/09/2018","Grad Scheme",1);
     }
 }

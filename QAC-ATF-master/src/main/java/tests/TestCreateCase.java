@@ -6,7 +6,7 @@ import main.java.datamanagers.TestDataManager;
 import main.java.datamanagers.UserDataManager;
 import main.java.framework.BaseTest;
 import main.java.pages.LoginPage;
-import main.java.pages.Menu;
+import main.java.pages.NavigationMenu;
 import main.java.pages.PersonalInformationScreen;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

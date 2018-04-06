@@ -15,8 +15,8 @@ public class NavigationMenu {
 
     public NavigationMenu() {
         this.openMenuButton = new Button(By.id("appview-nav-toggle-one"));
-        this.createTestCaseButton = new Button(By.id("menu-item-$PpyNavigation1522942138374$ppyElements$l1"));
-        this.onboardingButton = new Button(By.xpath("//*[@class='menu-item-title']//*[text()='Onboarding']"));
+        this.createTestCaseButton = new Button(By.cssSelector("span[class='menu-item-title-wrap']"));
+        this.onboardingButton = new Button(By.cssSelector("a[data-click*='OL3NLB-RanwarQA-Work-Onboarding']"));
         this.myWorkButton = new Button(By.xpath("//*[@class='menu-item-title']//*[text()='My Work']")); // seeing how (/if?) xpath works
         this.myTeamsButton = new Button(By.cssSelector("li[title='My Teams']"));
         this.casesButton = new Button(By.cssSelector("a[data-ctl data click*='pyCMCases7']"));
@@ -32,7 +32,7 @@ public class NavigationMenu {
 
     public void createNewOnboarding() {
         openMenuButton.click();
-        getCreateTestCaseButton().click();
+        createTestCaseButton.click();
         onboardingButton.click();
 
     }

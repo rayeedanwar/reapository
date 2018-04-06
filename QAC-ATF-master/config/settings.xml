@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
     <setting name="chromedriverlocation" value = "C:\chromedriver\chromedriver.exe"/>
-    <setting name="timeout" value="5"/>
+    <setting name="timeout" value="7"/>
     <setting name="maxattempts" value="20"/>
     <setting name="browsertype" value="headed"/>
     <setting name="environment" value="local"/>
